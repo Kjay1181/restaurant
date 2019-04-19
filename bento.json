@@ -1,0 +1,35 @@
+{
+  "lumpia":[
+      {
+      "type":"Banana ",
+      "price":2.15
+      
+
+       },
+    {
+      "type":"Chicken",
+      "price":2.55
+      
+       },
+       {
+       "type":"Shrimp",
+      "price":1.75
+       },
+       {
+       "type":"Beef",
+      "price":1.55
+       },
+{
+       "type":"Veggie",
+      "price":1.22
+      
+       },
+
+{
+       "type":"Pork",
+      "price":2.25
+       }
+
+
+    ]
+}

@@ -1,28 +1,69 @@
 <html>
   <head>
-
+    
     <link rel="stylesheet" type="text/css" href="design.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   </head>
-  <body>
-    <h1 id="title">The Best Lumpia </h1>
+  <body bgcolor="khaki">
+    <h1 id="heading">The Best Lumpia </h1>
    
-    <div id="one">
-      <h1 id="name"></h1>
-      <h2>enter amount</h2>
-      <h3 id="price"></h3>
+    <div id="one" >
+      <h1 id="bananaTitle"></h1>
+      <h1 id="bananaPrice"></h1>
+      <h2 id="amount">Enter amount</h2>
       <input type="text" id="userInput">
- <button onclick="buyItem()">Order</button>
- <p id=quantity>
+       <button onclick="buyItem()">Order</button>
+    </div>
+      <div id="two" >
+      <h1 id="chickenTitle"></h1>
+      <h1 id="chickenPrice"></h1>
+      <h2 id="amounttwo">Enter amount</h2>
+      <input type="text" id="userInputTwo">
+       <button onclick="buyItemTwo()">Order</button>
+
+    </div>
+    <div id="three" >
+      <h1 id="shrimpTitle"></h1>
+      <h1 id="shrimpPrice"></h1>
+      <h2 id="amountThree">Enter amount</h2>
+      <input type="text" id="userInputThree">
+       <button onclick="buyItemThree()">Order</button>
+
+    </div>
+    <div id="four" >
+      <h1 id="beefTitle"></h1>
+      <h1 id="beefPrice"></h1>
+      <h2 id="amountFour">Enter amount</h2>
+      <input type="text" id="userInputFour">
+       <button onclick="buyItemFour()">Order</button>
+
+    </div>
+    <div id="five" >
+      <h1 id="veggieTitle"></h1>
+      <h1 id="veggiePrice"></h1>
+      <h2 id="amountFive">Enter amount</h2>
+      <input type="text" id="userInputFive">
+       <button onclick="buyItemFive()">Order</button>
+
+    </div>
+    <div id="six" >
+      <h1 id="porkTitle"></h1>
+      <h1 id="porkPrice"></h1>
+      <h2 id="amountSix">Enter amount</h2>
+      <input type="text" id="userInputSix">
+       <button onclick="buyItemSix()">Order</button>
+
     </div>
     
-    <div id="list">
-      <h1>You ordered</h1>
-      <p id="display"></p>
+    <div id="subtotal">
+      <h1> Items purchased with tax</h1>
+      <ol id="recipt"></ol>
+   <button onclick="nextPage()">Check Out</button>
     </div>
-  
-        
+    <script>// this checks the json file every two seconds
+ 
+ </script>
   <script src="rest.js">
     </script>
-  <button onclick()="nextPage()">Check Out</button>
   </body>
 </html>

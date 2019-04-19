@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <style>
+    #box{
+      position:absolute
+      top:100px;
+      left:500px;
+      background-color:#ffffff;
+      height:500px;
+      width:500px;
+    }
+    #items{
+      font-size:50px;
+    }
+    #tax{
+      font-size:10px;
+    }
+    </style>
+  </head>
+  <body bgcolor="#8AAAE5">
+    <div id="box">
+    <h1>Recipt</h1>
+    <p id= "tax"></p>
+    <p id="items"></p>
+  <a href="index.html">startover</a>
+  </div>
+  <script>
+  
+  var y = localStorage.getItem("list");
+ document.getElementById("items").innerHTML=y;
+  </script>
+  </body>
+</html>
