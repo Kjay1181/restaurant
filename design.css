@@ -8,7 +8,7 @@
   #two{
         height:500px;
         width:500px;
-        background-color:url("chickenLumpia.jpeg");
+        background-image:url("chickenLumpia.jpeg");
         background-size:cover;
                 float:left;
 
