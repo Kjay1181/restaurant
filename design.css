@@ -45,3 +45,11 @@
                 float:left;
 
         }
+        #subtotal{
+          height:25vh;
+          width:20vw;
+          background-color:linear-gradient(to right, red , yellow);
+          background-size:cover;
+          float:right;
+          
+        }
